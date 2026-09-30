@@ -7,7 +7,7 @@ html {
 }
 body {
     height: 4700px;
-    color: #fff;
+    color: var(--white);
     letter-spacing: -0.38px;
 }
 h1{
