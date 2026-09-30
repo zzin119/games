@@ -1,3 +1,7 @@
+:root {
+    --primary: #F9A51A;
+    --white: #fff;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -30,7 +34,7 @@ strong {
 .scroll-progress .bar {
     width: 0;
     height: 100%;
-    background: #F9A51A;
+    background: var(--primary);
 }
 header {
     width: 100%;
@@ -238,7 +242,7 @@ section#genji {
     text-align: center;
 }
 section#genji h1 {
-    color: #F9A51A;
+    color: var(--primary);
 }
 section#genji iframe {
 
